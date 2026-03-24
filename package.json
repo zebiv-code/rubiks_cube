@@ -1,0 +1,15 @@
+{
+  "name": "rubiks-cube",
+  "version": "1.0.0",
+  "description": "Interactive 3D Rubik's Cube simulator with animated layer rotations and keyboard controls.",
+  "author": "Bill Heyman <bill@heyman.ai> (https://billheyman.com)",
+  "license": "MIT",
+  "homepage": "https://zebiv.com/rubiks-cube/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zebiv-code/rubiks_cube/"
+  },
+  "scripts": {
+    "start": "npx serve web -l 3000"
+  }
+}

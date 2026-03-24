@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube — heyman.ai</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <canvas id="c"></canvas>
+    <div class="controls">
+        <h2>Rubik's Cube</h2>
+        <div class="btn-row">
+            <button class="accent" id="scramble">Scramble</button>
+            <button id="solve">Solve</button>
+            <button class="warn" id="reset">Reset</button>
+        </div>
+        <div class="label">Moves (click or press key)</div>
+        <div class="move-grid">
+            <button data-move="U">U</button>
+            <button data-move="D">D</button>
+            <button data-move="F">F</button>
+            <button data-move="B">B</button>
+            <button data-move="L">L</button>
+            <button data-move="R">R</button>
+            <button data-move="U'">U'</button>
+            <button data-move="D'">D'</button>
+            <button data-move="F'">F'</button>
+            <button data-move="B'">B'</button>
+            <button data-move="L'">L'</button>
+            <button data-move="R'">R'</button>
+            <button data-move="M">M</button>
+            <button data-move="E">E</button>
+            <button data-move="S">S</button>
+        </div>
+        <div class="info">
+            Drag to rotate view. Keys: U D F B L R (hold Shift for inverse).<br>
+            M = Middle, E = Equator, S = Standing.
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
